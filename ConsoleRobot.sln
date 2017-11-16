@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRobot", "ConsoleRobot\ConsoleRobot.csproj", "{DE5EF61D-F522-48EC-8782-09B8916DCC9B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{9A6BBB98-217E-467C-B3FC-30F450ADC189}"
+	ProjectSection(SolutionItems) = preProject
+		examples\example-a.bat = examples\example-a.bat
+		examples\example-b.bat = examples\example-b.bat
+		examples\example-c.bat = examples\example-c.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
