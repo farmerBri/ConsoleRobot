@@ -59,7 +59,7 @@ namespace ConsoleRobot
         public static string toCompassPoint(this int direction)
         {
             var compassPoint = compassPoints.FirstOrDefault((point) => point.Value == direction);                               // default KeyValuePair<string,int> is { null, 0 }
-            return compassPoint.Key ?? $"INVALID DIRECTION (${direction})";                                                     // ... so Key will be null
+            return compassPoint.Key ?? $"INVALID DIRECTION ({direction})";                                                     // ... so Key will be null
         }
     }
 }

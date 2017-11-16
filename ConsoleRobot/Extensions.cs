@@ -39,5 +39,6 @@ namespace ConsoleRobot
 
             return result;
         }
+
     }
 }

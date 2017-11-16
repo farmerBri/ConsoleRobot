@@ -51,9 +51,9 @@ namespace ConsoleRobot
         {
             if (placed)
             {
-                direction = (direction + moment) % 4;
+                direction = (direction + moment + 4) % 4;
             }
         }
-        
+
     }
 }
