@@ -31,3 +31,9 @@ For example:
             }
             return result;                                                        // return either the default or the matching vector
         }
+
+
+I also have a Gist on an interesting comment toggle I've been using for years, that I've never seen used elsewhere:
+[https://gist.github.com/farmerBri/392d089e4bac4511a1f4f6138d2558ec](https://gist.github.com/farmerBri/392d089e4bac4511a1f4f6138d2558ec)
+
+Cheers!
