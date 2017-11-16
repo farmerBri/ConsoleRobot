@@ -4,10 +4,11 @@ I have a basic working program and some simple example bat files to test.
 I haven't used a IoC container, but it was designed with dependency injection in mind to enable easy refactoring for unit testing / mocking.
 I was going to include unit tests but ran out of time.
 
+Incidentally, I have a history with toy robots - this is a video of my Son playing with Raspberry-Pi / node.js powered one I built: [https://www.youtube.com/watch?v=CqkG3Uy1cR8](https://www.youtube.com/watch?v=CqkG3Uy1cR8)
 
 ## Examples
 
-The build copies the exe into the **example** directory and double-clicking the **.bat** files in explorer will run them.
+A post-build event copies the exe into the **example** directory, and double-clicking the **.bat** files in explorer will run them.
 
 
 ## A note on comments
